@@ -1,0 +1,268 @@
+body {
+  margin: 0px;
+  /* padding: 0px; */
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+.navbar {
+  display: flex;
+  background-color: rgba(230, 227, 227, 0.801);
+  /* text-align: center; */
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+
+  /* background-color: aqua; */
+  padding-right: 10vw;
+}
+.right h5 {
+  padding: 1vw;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-left: 15vw;
+  /* padding-top: 1.4em; */
+  font-size: 1.2em;
+  color: blue;
+  font-weight: bold;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(121, 121, 233);
+  height: 30%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.heading h1 {
+  margin-top: 4em;
+  margin-left: 4em;
+  color: white;
+}
+.heading p {
+  margin-top: 2em;
+  margin-left: 8em;
+  color: white;
+}
+.heading button {
+  border-radius: 17em;
+  background-color: white;
+  margin-top: 2em;
+  margin-left: 8em;
+  color: blue;
+  padding: 1em;
+  font-weight: bold;
+}
+.heading img {
+  margin: 5em;
+  margin-right: 10em;
+  height: 20rem;
+  width: 15rem;
+}
+.ff {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.f .first {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.f .second {
+  display: flex;
+  justify-content: center;
+  /* font-size: large; */
+}
+.f h3 {
+  color: blue;
+  margin: 1em;
+  font-size: large;
+}
+.a {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.ab {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.aa {
+  display: flex;
+  justify-content: center;
+}
+.abt {
+  /* margin-left: auto; */
+  /* height: 10px; */
+  height: 15em;
+  border-width: 2em;
+  border-color: aqua;
+}
+
+.para {
+  padding-top: 1em;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.01em;
+}
+.x {
+  display: flex;
+  justify-content: center;
+}
+i {
+  padding: 0.4em;
+  color: black;
+}
+.fa-brands {
+  color: black;
+}
+.s {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.ss {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+.bx {
+  display: flex;
+  justify-content: center;
+}
+
+.bx button {
+  border-radius: 17em;
+  background-color: white;
+  margin: 2em;
+  color: black;
+  padding: 1em;
+  font-weight: bold;
+}
+button :hover {
+  background-color: blue;
+  color: white;
+}
+
+.serv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.r {
+  margin: 5em;
+  margin-right: 10em;
+  height: 20rem;
+  width: 15rem;
+  background-color: aqua;
+}
+.l {
+  margin: 5em;
+}
+
+button {
+  border-radius: 17em;
+  background-color: blue;
+  margin: 2em;
+  color: black;
+  padding: 1em;
+  font-weight: bold;
+}
+li {
+  padding-top: 0.5em;
+  font-weight: 500;
+}
+
+.cr {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.m {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.s {
+  padding-top: 1em;
+}
+.c {
+  height: 3em;
+  border-radius: 100%;
+  width: 3em;
+  margin-left: 40%;
+}
+.t {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.t p {
+  text-align: center;
+}
+.al {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.last {
+  background-color: blue;
+  border-radius: 50% 50% 0% 0%;
+}
+.last .s,
+.ss {
+  color: white;
+}
+
+.last button {
+  margin-left: 48%;
+  margin-bottom: 1em;
+}
+.ll {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.one {
+  height: 45em;
+}
+.two {
+  height: 45em;
+}
+.cnt {
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  background-color: blue;
+}
+.footer h2 {
+  text-align: center;
+  color: white;
+}
+
+.store img {
+  height: 40px;
+}
+.store {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.copy {
+  display: flex;
+  justify-content: space-around;
+}
+.copy p {
+  color: white;
+}

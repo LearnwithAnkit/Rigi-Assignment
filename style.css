@@ -225,8 +225,7 @@ li {
   background-color: blue;
   border-radius: 50% 50% 0% 0%;
 }
-.last .s,
-.ss {
+.last  {
   color: white;
 }
 

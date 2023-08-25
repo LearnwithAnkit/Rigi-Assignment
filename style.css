@@ -225,9 +225,9 @@ li {
   background-color: blue;
   border-radius: 50% 50% 0% 0%;
 }
-.last  {
+/* .last  {
   color: white;
-}
+} */
 
 .last button {
   margin-left: 48%;

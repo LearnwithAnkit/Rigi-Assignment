@@ -8,32 +8,15 @@
 html,body {
    height: 100%;
    width: 100%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
+  position:relative;
 }
-.navbar {
-  display: flex;
-  background-color: rgba(230, 227, 227, 0.801);
-  /* text-align: center; */
-  justify-content: space-between;
-}
-.right {
-  display: flex;
-  justify-content: space-between;
 
-  /* background-color: aqua; */
-  padding-right: 10vw;
-}
-.right h5 {
-  padding: 1vw;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  padding-left: 15vw;
-  /* padding-top: 1.4em; */
-  font-size: 1.2em;
+
+.logo
+{
   color: blue;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -47,20 +30,20 @@ html,body {
 }
 
 .heading h1 {
-  margin-top: 4em;
-  margin-left: 4em;
+  margin-top: 10vw;
+  margin-left: 10vw;
   color: white;
 }
 .heading p {
-  margin-top: 2em;
-  margin-left: 8em;
+  margin-top: 2vw;
+  margin-left: 10vw;
   color: white;
 }
 .heading button {
   border-radius: 17em;
   background-color: white;
-  margin-top: 2em;
-  margin-left: 8em;
+  margin-top: 2vw;
+  margin-left: 10vw;
   color: blue;
   padding: 1em;
   font-weight: bold;
@@ -74,6 +57,7 @@ html,body {
 .ff {
   padding-top: 1em;
   text-align: center;
+  background-color aliceblue:
 }
 
 .f .first {
@@ -218,7 +202,12 @@ li {
 .al {
   display: flex;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 10vw;
+  /* width:5vw; */
+}
+.al>.ali
+{
+  width:65vw;
 }
 
 .last {
@@ -229,20 +218,18 @@ li {
   color: white;
 } */
 
-.last button {
-  margin-left: 48%;
-  margin-bottom: 1em;
-}
 .ll {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position:relative;
 }
 .one {
-  height: 45em;
+  height: 45vw;
+  
 }
 .two {
-  height: 45em;
+  height: 45vw;
 }
 .cnt {
   display: flex;
@@ -263,7 +250,18 @@ li {
   text-align: center;
   padding-top: 1em;
 }
+.last>.s{
+  color:white;
+}
+.last>.ss{
+  color:white;
+}
+.lbtn
+{
 
+  display: flex;
+  justify-content: center;
+}
 .copy {
   display: flex;
   justify-content: space-around;
